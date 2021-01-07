@@ -45,7 +45,7 @@ body {
 }
 
 .js-toDoForm .toDoInput {
-  width: 250px;
+  width: 30vh;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -60,21 +60,28 @@ body {
 ul {
   margin: 0;
   padding: 0;
-  width: 300px;
+  width: 50%;
+  list-style-type: outside;
 }
 
 ul li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  position: relative;
   font-size: 1.5rem;
   margin: 10px 0;
   padding: 5px 0;
 }
 
 button {
+  position: absolute;
+  right: 0;
+  top: 5px;
   background-color: transparent;
+  justify-content: space-between;
   border: 0;
+}
+
+button:focus {
+  outline: none;
 }
 
 .fa-trash-alt {
