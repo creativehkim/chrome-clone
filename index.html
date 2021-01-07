@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chrome Clone</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
@@ -17,7 +18,16 @@
       <input type="text" placeholder="What is your name?" class="input">
     </form>
     <h4 class="js-greetings greetings"></h4>
-    <form class="js-to"></form>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" class="toDoInput">
+    </form>
+    <ul class="js-toDoList">
+      <li>
+        <input type="checkbox">
+        <span>ddd</span>
+        <button><i class="far fa-trash-alt"></i></button>
+      </li>
+    </ul>
   </div>
   <script src="clock.js"></script>
   <script src="greeting.js"></script>

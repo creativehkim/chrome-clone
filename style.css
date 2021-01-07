@@ -43,3 +43,39 @@ body {
 .showing {
   display: block;
 }
+
+.js-toDoForm .toDoInput {
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.js-toDoForm .toDoInput:focus {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 5px 0;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}
+
+.fa-trash-alt {
+  font-size: 1.5rem;
+  color: #fff;
+}
